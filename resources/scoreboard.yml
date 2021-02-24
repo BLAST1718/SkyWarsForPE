@@ -59,7 +59,7 @@ wait-arena:
   - "Map: &6{arena_map}"
   - "Mode: &6{arena_mode}"
   - ""
-  - "§eplay.skycraft.us.to"
+  - "§esw.skycraft.uk.to"
 
 # This scoreboard key is used
 # when the game is started.
@@ -76,7 +76,7 @@ in-game-arena:
   - "Map: &6{arena_map}"
   - "Mode: &6{arena_mode}"
   - ""
-  - "§eplay.skycraft.us.to"
+  - "§esw.skycraft.uk.to"
 
 in-game-arena-team:
   - ""
@@ -93,7 +93,7 @@ in-game-arena-team:
   - "Map: &6{arena_map}"
   - "Mode: &6{arena_mode}"
   - ""
-  - "§eplay.skycraft.us.to"
+  - "§esw.skycraft.uk.to"
 
 # This scoreboard is used when the game is ended.
 ending-state-arena:
@@ -105,7 +105,7 @@ ending-state-arena:
   - "Map: &6{arena_map}"
   - "Mode: &6{arena_mode}"
   - ""
-  - "§eplay.skycraft.us.to"
+  - "§esw.skycraft.uk.to"
 
 spectate-scoreboard:
   - "You're in &6{player_place}&f place"
@@ -115,4 +115,4 @@ spectate-scoreboard:
   - ""
   - "Kills: &6{player_kills}"
   - ""
-  - "§eplay.skycraft.us.to"
+  - "§esw.skycraft.uk.to"
