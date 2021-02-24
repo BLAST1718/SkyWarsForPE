@@ -212,7 +212,7 @@ class ArenaImpl extends ArenaData {
 
 		if($this->getPlugin()->getKitManager() !== null){
 			$player->getInventory()->setItem(0, self::getKitSelector());
-			$player->getInventory()->setItem(4, ItemFactory::get(262));
+			$player->getInventory()->setItem(4, ItemFactory::get(262))->setCustomName("Cosmetics");
 		}
 	}
 
