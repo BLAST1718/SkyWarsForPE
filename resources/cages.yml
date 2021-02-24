@@ -35,20 +35,190 @@ cages:
     higher-middle: GLASS
     # The roof of the cage
     roof: GLASS
-  remote:
+  modern:
     # The cage name
     cage-name: "Modern"
     # The cage permission
     permission: "sw.cages.modern"
     # The cage price
-    cage-price: 500
+    cage-price: 0
     # The floor type of block
-    floor: GLASS
+    floor: QUARTZ_BLOCK
     # The lower middle of block
-    lower-middle: AIR
+    lower-middle: QUARTZ_BLOCK
     # The middle of block
-    middle: GLASS
+    middle: AIR
     # The lower middle of block
-    higher-middle: AIR
+    higher-middle: QUARTZ_BLOCK
     # The roof of the cage
-    roof: GLASS
+    roof: QUARTZ_BLOCK
+  ocean:
+    # The cage name
+    cage-name: "Ocean"
+    # The cage permission
+    permission: "sw.cages.ocean"
+    # The cage price
+    cage-price: 7500
+    # The floor type of block
+    floor: PRISMARINE
+    # The lower middle of block
+    lower-middle: PRISMARINE
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: PRISMARINE
+    # The roof of the cage
+    roof: PRISMARINE
+  nether:
+    # The cage name
+    cage-name: "Nether"
+    # The cage permission
+    permission: "sw.cages.nether"
+    # The cage price
+    cage-price: 5500
+    # The floor type of block
+    floor: RED_NETHER_BRICK
+    # The lower middle of block
+    lower-middle: NETHER_BRICK_BLOCK
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: NETHER_BRICK_BLOCK
+    # The roof of the cage
+    roof: RED_NETHER_BRICK
+  tree:
+    # The cage name
+    cage-name: "Tree"
+    # The cage permission
+    permission: "sw.cages.tree"
+    # The cage price
+    cage-price: 1250
+    # The floor type of block
+    floor: WOOD
+    # The lower middle of block
+    lower-middle: WOOD
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: WOOD
+    # The roof of the cage
+    roof: WOOD
+  spawner:
+    # The cage name
+    cage-name: "Spawner"
+    # The cage permission
+    permission: "sw.cages.spawner"
+    # The cage price
+    cage-price: 8750
+    # The floor type of block
+    floor: MOB_SPAWNER
+    # The lower middle of block
+    lower-middle: MOB_SPAWNER
+    # The middle of block
+    middle: MOB_SPAWNER
+    # The lower middle of block
+    higher-middle: MOB_SPAWNER
+    # The roof of the cage
+    roof: MOB_SPAWNER
+  end:
+    # The cage name
+    cage-name: "End"
+    # The cage permission
+    permission: "sw.cages.rainbow"
+    # The cage price
+    cage-price: 6000
+    # The floor type of block
+    floor: PURPUR_BLOCK
+    # The lower middle of block
+    lower-middle: PURPUR_BLOCK
+    # The middle of block
+    middle: END_ROD
+    # The lower middle of block
+    higher-middle: PURPUR_BLOCK
+    # The roof of the cage
+    roof: PURPUR_BLOCK
+  prison:
+    # The cage name
+    cage-name: "Prison"
+    # The cage permission
+    permission: "sw.cages.cell"
+    # The cage price
+    cage-price: 5000
+    # The floor type of block
+    floor: STONE_BRICKS
+    # The lower middle of block
+    lower-middle: STONE_BRICKS
+    # The middle of block
+    middle: IRON_BARS
+    # The lower middle of block
+    higher-middle: STONE_BRICKS
+    # The roof of the cage
+    roof: STONE_BRICKS
+  diamond:
+    # The cage name
+    cage-name: "Diamond Ore"
+    # The cage permission
+    permission: "sw.cages.diamond"
+    # The cage price
+    cage-price: 10000
+    # The floor type of block
+    floor: "56"
+    # The lower middle of block
+    lower-middle: "56"
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: "56"
+    # The roof of the cage
+    roof: "56"
+  emerald:
+    # The cage name
+    cage-name: "Emerald Ore"
+    # The cage permission
+    permission: "sw.cages.emerald"
+    # The cage price
+    cage-price: 9000
+    # The floor type of block
+    floor: "129"
+    # The lower middle of block
+    lower-middle: "129"
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: "129"
+    # The roof of the cage
+    roof: "129"
+  gold:
+    # The cage name
+    cage-name: "Gold Ore"
+    # The cage permission
+    permission: "sw.cages.gold"
+    # The cage price
+    cage-price: 8000
+    # The floor type of block
+    floor: "14"
+    # The lower middle of block
+    lower-middle: "14"
+    # The middle of block
+    middle: AIR
+    # The lower middle of block
+    higher-middle: "14"
+    # The roof of the cage
+    roof: "14"
+  locked:
+    # The cage name
+    cage-name: "Locked"
+    # The cage permission
+    permission: "sw.cages.locked"
+    # The cage price
+    cage-price: 2500
+    # The floor type of block
+    floor: "98"
+    # The lower middle of block
+    lower-middle: "101"
+    # The middle of block
+    middle: "101"
+    # The lower middle of block
+    higher-middle: "101"
+    # The roof of the cage
+    roof: "98"
